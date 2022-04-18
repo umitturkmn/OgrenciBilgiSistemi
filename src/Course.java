@@ -16,7 +16,7 @@ public class Course {
         if (t.branch.equals(this.prefix))
             this.teacher = t;
         else
-            System.out.println("Öğretmen hatalıdır.");
+            System.out.println("Öğretmen hatalıdır. ");
     }
 
     public void printTeacher() {
